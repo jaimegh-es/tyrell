@@ -7,7 +7,7 @@
 ## 1. Regla de oro: documenta SIEMPRE en Markdown
 
 - Todo conocimiento, decisión, hallazgo, comando útil o resumen **debe** quedar
-  escrito en un archivo `.md` **dentro de esta carpeta** (`/home/(user)/Documentos/tyrell`).
+  escrito en un archivo `.md` **dentro de esta carpeta** (`~/tyrell`).
 - Escribe la documentación que tú generes en `documentacion/`.
 - Nunca dejes información valiosa solo en el chat: si importa, va a un `.md`.
 
@@ -52,7 +52,7 @@ respuesta ya esté documentada aquí.
 ## 4. Estructura
 
 ```
-/home/jaime/Documentos/tyrell/
+~/tyrell/
 ├── AGENTS.md            ← este archivo (reglas maestras)
 ├── README.md
 ├── conversaciones/      ← volcado automático diario (no editar a mano)
