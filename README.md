@@ -108,7 +108,7 @@ Example (opencode, in `~/.config/opencode/opencode.json`):
   "mcp": {
     "tyrell": {
       "type": "local",
-      "command": ["/usr/bin/python3", "/home/jaime/Documents/tyrell/tools/tyrell.py", "mcp"],
+      "command": ["/usr/bin/python3", "~/tools/tyrell.py", "mcp"],
       "enabled": true
     }
   }
@@ -122,7 +122,7 @@ Example (cline/kilo/cursor/freebuff):
   "mcpServers": {
     "tyrell": {
       "command": "/usr/bin/python3",
-      "args": ["/home/jaime/Documents/tyrell/tools/tyrell.py", "mcp"]
+      "args": ["~/tools/tyrell.py", "mcp"]
     }
   }
 }
